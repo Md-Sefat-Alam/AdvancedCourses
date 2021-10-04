@@ -10,7 +10,7 @@ const StudentProjectShow = (props) => {
                 <div className='left_side_project'>
                     <div className='img-wrapper'>
                         <div className='left_side_img'>
-                            <img width='250px' src={img} alt="" />
+                            <img src={img} alt="" />
                         </div>
                     </div>
                     <div className='left_side_text'>
@@ -18,7 +18,7 @@ const StudentProjectShow = (props) => {
                         <p>Student Batch: <span>{student_batch}</span></p>
                         <p>Name: <span>{student_name}</span></p>
                         <p>Project Name: <span>{project_Name}</span></p>
-                        <p>Live Site Link: <span><a rel="noreferrer" target="_blank" href={live_site_link}>{live_site_link}</a></span></p>
+                        <p>Live Site Link: <span><a className='text-green-700' rel="noreferrer" target="_blank" href={live_site_link}>{live_site_link}</a></span></p>
                     </div>
                     <div></div>
                 </div>

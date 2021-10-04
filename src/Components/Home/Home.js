@@ -20,14 +20,14 @@ const Home = () => {
         <div className='content_wrapper'>
             <div className="home_best_offer">
                 <div className='pt-5 text-gray-700 text-3xl font-bold text-left'>
-                    <h1>Top Offers</h1>
+                    <h1 className='my-10'>Top Offers</h1>
                 </div>
                 <BestOffer courses={courses}></BestOffer>
             </div>
 
             <div>
                 <div className='pt-5 text-gray-700 text-3xl font-bold text-right'>
-                    <h2>Services</h2>
+                    <h2 className='my-10'>Services</h2>
                 </div>
                 <div>
                     {web_courses ? <CourseShowHandle course={web_courses}></CourseShowHandle> : ''}

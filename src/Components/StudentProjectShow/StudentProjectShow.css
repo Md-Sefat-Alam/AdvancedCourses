@@ -11,6 +11,9 @@
     display: flex;
     justify-content: center;
 }
+.left_side_project .img-wrapper img{
+    width: 450px;
+}
 .left_side_project .img-wrapper .left_side_img{
     width: 150px;
     height: 150px;
@@ -19,7 +22,9 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    border: 3px solid green;
 }
+
 .left_side_project .left_side_text{
 
     

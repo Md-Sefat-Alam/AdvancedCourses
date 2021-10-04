@@ -100,6 +100,15 @@
                 "teacher_name": "Abdus Salam",
                 "cost": "6000",
                 "offer": "20"
+            },
+            {
+                "id": "graphics-103",
+                "duration": "3",
+                "duration_in": "month",
+                "name": "UI/UX Design",
+                "teacher_name": "Abdus Salam",
+                "cost": "8000",
+                "offer": "55"
             }
         ],
         "title": "Graphics Design"
@@ -117,5 +126,101 @@
             }
         ],
         "title": "3D Animation"
+    },
+    "marketing": {
+        "detail": [
+            {
+                "id": "marketing-101",
+                "duration": "3",
+                "duration_in": "month",
+                "name": "Digital Marketing",
+                "teacher_name": "Abdus Salam",
+                "cost": "12000",
+                "offer": "35"
+            },
+            {
+                "id": "marketing-102",
+                "duration": "3",
+                "duration_in": "month",
+                "name": "FaceBook Marketing",
+                "teacher_name": "Abdus Salam",
+                "cost": "12000",
+                "offer": "35"
+            },
+            {
+                "id": "marketing-103",
+                "duration": "3",
+                "duration_in": "month",
+                "name": "Instagram Marketing",
+                "teacher_name": "Abdus Salam",
+                "cost": "12000",
+                "offer": "35"
+            },
+            {
+                "id": "marketing-104",
+                "duration": "3",
+                "duration_in": "month",
+                "name": "Google Adwords",
+                "teacher_name": "Md. Sefat Alam",
+                "cost": "10000",
+                "offer": "35"
+            }
+        ],
+        "title": "Marketing"
+    },
+    "electronics": {
+        "detail": [
+            {
+                "id": "arduino-101",
+                "duration": "3",
+                "duration_in": "month",
+                "name": "Arduino",
+                "teacher_name": "Abdus Salam",
+                "cost": "12000",
+                "offer": "30"
+            },
+            {
+                "id": "8085-101",
+                "duration": "3",
+                "duration_in": "month",
+                "name": "Microcontroller",
+                "teacher_name": "Abdus Salam",
+                "cost": "8000",
+                "offer": "30"
+            }
+        ],
+        "title": "Electronics"
+    },
+    "health": {
+        "detail": [
+            {
+                "id": "health-101",
+                "duration": "3",
+                "duration_in": "month",
+                "name": "Wellness",
+                "teacher_name": "Prapti Khatun",
+                "cost": "5000",
+                "offer": "10"
+            },
+            {
+                "id": "health-102",
+                "duration": "3",
+                "duration_in": "month",
+                "name": "Public Health EPIDEMIOLOGY",
+                "teacher_name": "Dr. Jubaida",
+                "cost": "12000",
+                "offer": "30"
+            },
+            {
+                "id": "health-103",
+                "duration": "3",
+                "duration_in": "month",
+                "name": "Fitness",
+                "teacher_name": "Dr. Jubaida",
+                "cost": "12000",
+                "offer": "66"
+            }
+        ],
+        "title": "Health"
     }
 }

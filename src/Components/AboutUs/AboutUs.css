@@ -1,0 +1,54 @@
+.about_top{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.about_top .about_left{
+    width: 40%;
+}
+.about_top .about_left h1{
+    font-size: 30px;
+}
+.about_top .about_left button{
+    padding: 5px 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.about_top .about_right{
+    width: 50%;
+}
+
+.contactUs{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.contactUs div div{
+    padding: 5px;
+    display: flex;
+}
+.contactUs input{
+    margin-left: 20px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+.contactUs textarea{
+    margin-left: 20px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+.contactUs button{
+    padding: 5px 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+

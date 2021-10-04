@@ -1,0 +1,46 @@
+.studentProject{
+    margin: 100px 0px;
+    display: flex;
+}
+
+.left_side_project{
+    width: 50%;
+
+}
+.left_side_project .img-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.left_side_project .img-wrapper .left_side_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.left_side_project .left_side_text{
+
+    
+}
+.left_side_project .left_side_text p{
+    color: gray;
+    text-align: center;
+}
+.left_side_project .left_side_text p span{
+    color: black;
+    font-weight: bold;
+}
+
+
+.right-side-project{
+    width: 50%;
+}
+.right-side-project div{
+    max-height: 400px;
+    overflow: hidden;
+}
+.right-side-project div img{
+
+}

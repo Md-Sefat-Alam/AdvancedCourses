@@ -1,0 +1,10 @@
+.course-show{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.text-details{
+    color: black;
+    font-weight: bold;
+}

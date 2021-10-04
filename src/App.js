@@ -4,6 +4,10 @@ import './App.css';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header.js/Header';
 import Home from './Components/Home/Home';
+import Services from './Components/Services/Services';
+import StudentProjects from './Components/StudentProjects/StudentProjects';
+import AboutUs from './Components/AboutUs/AboutUs';
+import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   return (
@@ -20,16 +24,16 @@ function App() {
               <Home></Home>
             </Route>
             <Route path='/services'>
-
+              <Services></Services>
             </Route>
             <Route path='/student-projects'>
-
+              <StudentProjects></StudentProjects>
             </Route>
             <Route path='/about'>
-
+              <AboutUs></AboutUs>
             </Route>
             <Route path='/*'>
-
+              <NotFound></NotFound>
             </Route>
           </Switch>
         </div>

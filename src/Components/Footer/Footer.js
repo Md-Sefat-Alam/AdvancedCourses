@@ -23,9 +23,9 @@ const Footer = () => {
                     </div>
                     <div className='text-white'>
                         <ul>
-                            <li>facebook</li>
-                            <li>youtube</li>
-                            <li>linkedin</li>
+                            <a className='cursor-pointer' rel="noreferrer" target="_blank" href="https://www.facebook.com/"><li>facebook</li></a>
+                            <a className='cursor-pointer' rel="noreferrer" target="_blank" href="https://www.youtube.com/"><li>youtube</li></a>
+                            <a className='cursor-pointer' rel="noreferrer" target="_blank" href="https://www.linkedin.com/"><li>linkedin</li></a>
                         </ul>
                     </div>
                 </div>

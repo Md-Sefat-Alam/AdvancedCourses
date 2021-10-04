@@ -1,6 +1,5 @@
 import './BestOffer.css'
 import React from 'react';
-import { parse } from 'postcss';
 import { Link } from 'react-router-dom';
 
 const BestOffer = (props) => {
@@ -20,7 +19,7 @@ const BestOffer = (props) => {
             {
                 offerCourse.map(course => {
                     const { id, duration, duration_in, name, teacher_name, cost, offer } = course;
-                    const price = (parseInt(cost)) * (parseInt(offer) / 100);
+                    const price = parseInt(cost) - (parseInt(cost)) * (parseInt(offer) / 100);
                     return (
                         <div>
                             <div className='flex justify-evenly bestOferWrapper'>

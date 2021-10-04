@@ -13,15 +13,14 @@ const BestOffer = (props) => {
             }
         });
     }
-    console.log(offerCourse)
     return (
-        <div className='grid grid-cols-2 gap-16'>
+        <div className='grid grid-cols-2 gap-16 '>
             {
                 offerCourse.map(course => {
                     const { id, duration, duration_in, name, teacher_name, cost, offer } = course;
                     const price = parseInt(cost) - (parseInt(cost)) * (parseInt(offer) / 100);
                     return (
-                        <div>
+                        <div className='best_offer_wrapper'>
                             <div className='flex justify-evenly bestOferWrapper'>
                                 <div className='bestOfferLeft'>
                                     <h1>{offer}%</h1>

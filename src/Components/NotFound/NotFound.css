@@ -1,0 +1,13 @@
+.notfound{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notFoundBtn{
+    padding: 5px 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 10px;
+}
